@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(conda env *)",
+      "Bash(/opt/miniconda3/envs/deeplearning-env/bin/python -c ' *)",
+      "Bash(/opt/miniconda3/envs/deeplearning-env/bin/python -c \"import seaborn as sns; print\\(sns.get_data_home\\(\\)\\)\")"
+    ]
+  }
+}
